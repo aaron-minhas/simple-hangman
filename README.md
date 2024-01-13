@@ -32,5 +32,5 @@ This Hangman game is a console-based application written in C. It challenges pla
 No special setup is required. Simply compile the provided source code and run the executable.
 
 ```bash
-gcc main.c -o hangman
-./hangman
+gcc -o hangman main.c hangman.c
+./hangman.exe
